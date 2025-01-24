@@ -40,6 +40,9 @@ function Navbar({ className }: { className?: string }) {
         <Link href={"/"}>
           <span className="text-2xl text-white Bebas">Home</span>
         </Link>
+        <Link href={"https://mubashir-assistant.vercel.app/"}>
+          <span className="text-2xl text-white Bebas">Ai Gen</span>
+        </Link>
         <Link href={"/Services"}>
           <MenuItem setActive={setActive} active={active} item="Services">
             <div className="flex flex-col space-y-4 text-sm text-slate-400	">
